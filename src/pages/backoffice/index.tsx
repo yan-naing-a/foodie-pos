@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-export default function () {
+export default function Backoffice() {
   return (
     <Box>
       <Box>
