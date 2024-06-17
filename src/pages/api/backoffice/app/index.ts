@@ -15,6 +15,10 @@ export default async function handler(
     if (session) {
       //validation
       const { user } = session;
+      console.log("##############################");
+      console.log("session :", session);
+      console.log("##############################");
+
       const name = user.name as string;
       const email = user.email as string;
 
